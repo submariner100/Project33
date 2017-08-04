@@ -13,6 +13,8 @@
 		27D01E961F31EFF10004E57E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27D01E941F31EFF10004E57E /* Main.storyboard */; };
 		27D01E981F31EFF10004E57E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27D01E971F31EFF10004E57E /* Assets.xcassets */; };
 		27D01E9B1F31EFF10004E57E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27D01E991F31EFF10004E57E /* LaunchScreen.storyboard */; };
+		27EAE25A1F34731800A22B2D /* SelectGenreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EAE2591F34731800A22B2D /* SelectGenreViewController.swift */; };
+		27EAE25E1F347A8200A22B2D /* AddCommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EAE25D1F347A8200A22B2D /* AddCommentsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		27D01E971F31EFF10004E57E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27D01E9A1F31EFF10004E57E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27D01E9C1F31EFF10004E57E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27EAE2591F34731800A22B2D /* SelectGenreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectGenreViewController.swift; sourceTree = "<group>"; };
+		27EAE25D1F347A8200A22B2D /* AddCommentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCommentsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				27D01E901F31EFF10004E57E /* AppDelegate.swift */,
 				27D01E921F31EFF10004E57E /* ViewController.swift */,
 				277CBFF71F326FEE00090B59 /* RecordWhistleViewController.swift */,
+				27EAE2591F34731800A22B2D /* SelectGenreViewController.swift */,
 				27D01E941F31EFF10004E57E /* Main.storyboard */,
 				27D01E971F31EFF10004E57E /* Assets.xcassets */,
 				27D01E991F31EFF10004E57E /* LaunchScreen.storyboard */,
 				27D01E9C1F31EFF10004E57E /* Info.plist */,
+				27EAE25D1F347A8200A22B2D /* AddCommentsViewController.swift */,
 			);
 			path = Project33;
 			sourceTree = "<group>";
@@ -141,7 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				27D01E931F31EFF10004E57E /* ViewController.swift in Sources */,
+				27EAE25E1F347A8200A22B2D /* AddCommentsViewController.swift in Sources */,
 				27D01E911F31EFF10004E57E /* AppDelegate.swift in Sources */,
+				27EAE25A1F34731800A22B2D /* SelectGenreViewController.swift in Sources */,
 				277CBFF81F326FEE00090B59 /* RecordWhistleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
